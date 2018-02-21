@@ -1,8 +1,5 @@
-class Binary
-{
+class DecimalBinaryExample{
 
-}class DecimalBinaryExample{
- 
     public void convertBinary(int num){
        int binary[] = new int[40];
        int index = 0;
@@ -14,7 +11,7 @@ class Binary
          System.out.print(binary[i]);
        }
     }
-   
+
     public static void main(String a[]){
        DecimalBinaryExample obj = new DecimalBinaryExample();
        System.out.println("Binary representation of 124: ");
@@ -25,22 +22,22 @@ class Binary
        obj.convertBinary(999);
     }
   }
-/*#include<stdio.h>    
-#include<stdlib.h>  
-int main(){  
-int a[10],n,i;    
-system ("cls");  
-printf("Enter the number to convert: ");    
-scanf("%d",&n);    
-for(i=0;n>0;i++)    
-{    
-a[i]=n%2;    
-n=n/2;    
-}    
-printf("\nBinary of Given Number is=");    
-for(i=i-1;i>=0;i--)    
-{    
-printf("%d",a[i]);    
-}    
-return 0;  
+/*#include<stdio.h>
+#include<stdlib.h>
+int main(){
+int a[10],n,i;
+system ("cls");
+printf("Enter the number to convert: ");
+scanf("%d",&n);
+for(i=0;n>0;i++)
+{
+a[i]=n%2;
+n=n/2;
+}
+printf("\nBinary of Given Number is=");
+for(i=i-1;i>=0;i--)
+{
+printf("%d",a[i]);
+}
+return 0;
 }  */
